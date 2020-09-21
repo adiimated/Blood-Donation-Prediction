@@ -3,7 +3,6 @@
 ## Table of contents :
 * [Project Description](#project-description)
 * [Steps](#steps)
-     - [Loading the blood donations data](#loading-the-blood-donations-data)
 * [Conclusion](#conclusion)
 * [Credits](#credits)
 
