@@ -4,6 +4,7 @@
 * [Project Description](#project-description)
 * [Steps](#steps)
 * [Conclusion](#conclusion)
+* [Credits](#credits)
 
 
 ## Project Description :
