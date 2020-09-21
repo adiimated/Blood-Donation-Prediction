@@ -206,4 +206,4 @@ In this experiment, we explored automatic model selection using TPOT and AUC sco
 Another benefit of using logistic regression model is that it is interpretable. We can analyze how much of the variance in the response variable (target) can be explained by other variables in our dataset.
 
 ## Credits
-This project was made as a part of internship with MedTourEasy.
+This project was made as a part of my internship with MedTourEasy.
