@@ -196,6 +196,7 @@ print(sorted(
     reverse=True
 ))
  ```
+![alt text](https://github.com/adiimated/Blood-Donation-Prediction/blob/master/screenshots/Sort%20models%20based%20on%20their%20AUC%20score.png)
 
 ## Conclusion
 The demand for blood fluctuates throughout the year. As one prominent example, blood donations slow down during busy holiday seasons. An accurate forecast for the future supply of blood allows for an appropriate action to be taken ahead of time and therefore saving more lives.
