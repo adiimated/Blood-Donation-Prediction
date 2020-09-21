@@ -50,7 +50,7 @@ It looks like every column in our DataFrame has the numeric type, which is exact
 print("Summary of transfusion dataset : ")
 print(transfusion.info())
  ``` 
-![alt text]()
+![alt text](https://github.com/adiimated/Blood-Donation-Prediction/blob/master/screenshots/Inspecting%20transfusion%20DataFrame.png)
 
 ### 3. Creating target column
 We are aiming to predict the value in whether he/she donated blood in March 2007 column. Let's rename this it to target so that it's more convenient to work with.
