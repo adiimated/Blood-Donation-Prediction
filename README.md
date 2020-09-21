@@ -29,7 +29,6 @@ transfusion = pd.read_csv(r'C:\Users\flash\Desktop\transfusion.data')
 # Print out the first rows of our dataset
 print("The first 5 rows of our dataset are : ")
 print(transfusion.head())
-print('\n')
 
 ``` 
 ![alt text](https://github.com/adiimated/Blood-Donation-Prediction/blob/master/screenshots/Loading%20the%20blood%20donations%20data.png)
@@ -51,6 +50,7 @@ It looks like every column in our DataFrame has the numeric type, which is exact
 print("Summary of transfusion dataset : ")
 print(transfusion.info())
  ``` 
+![alt text]()
 
 ### 3. Creating target column
 We are aiming to predict the value in whether he/she donated blood in March 2007 column. Let's rename this it to target so that it's more convenient to work with.
