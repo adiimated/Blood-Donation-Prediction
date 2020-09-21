@@ -32,6 +32,7 @@ print(transfusion.head())
 print('\n')
 
 ``` 
+![alt text](https://github.com/adiimated/Blood-Donation-Prediction/blob/master/screenshots/Loading%20the%20blood%20donations%20data.png)
 
 ### 2. Inspecting transfusion DataFrame
 Let's briefly return to our discussion of RFM model. RFM stands for Recency, Frequency and Monetary Value and it is commonly used in marketing for identifying your best customers. In our case, our customers are blood donors.
