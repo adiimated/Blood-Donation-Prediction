@@ -19,6 +19,18 @@ The data is stored in datasets/transfusion.data and it is structured according t
 
 ### 1. Loading the blood donations data
 We now know that we are working with a typical CSV file (i.e., the delimiter is ,, etc.). We proceed to loading the data into memory.
+```
+# Import pandas
+import pandas as pd
+
+# Read in dataset
+transfusion = pd.read_csv(r'C:\Users\flash\Desktop\transfusion.data')
+
+# Print out the first rows of our dataset
+print("The first 5 rows of our dataset are : ")
+print(transfusion.head())
+print('\n')
+ ``` 
 
 ### 2. Inspecting transfusion DataFrame
 Let's briefly return to our discussion of RFM model. RFM stands for Recency, Frequency and Monetary Value and it is commonly used in marketing for identifying your best customers. In our case, our customers are blood donors.
@@ -32,6 +44,13 @@ RFMTC is a variation of the RFM model. Below is a description of what each colum
     a binary variable representing whether he/she donated blood in March 2007 (1 stands for donating blood; 0 stands for not donating blood)
 
 It looks like every column in our DataFrame has the numeric type, which is exactly what we want when building a machine learning model. Let's verify our hypothesis.
+```
+# Print a concise summary of transfusion DataFrame
+print("Summary of transfusion dataset : ")
+print(transfusion.info())
+print('\n')
+ ``` 
+
 
 ### 3. Creating target column
 We are aiming to predict the value in whether he/she donated blood in March 2007 column. Let's rename this it to target so that it's more convenient to work with.
