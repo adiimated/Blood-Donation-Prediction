@@ -1,6 +1,6 @@
 # Blood-Donation-Prediction
 
-## Table of contents
+## Table of contents :
 * [Project Description](#project-description)
 * [Steps](#steps)
 * [Conclusion](#conclusion)
