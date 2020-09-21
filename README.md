@@ -64,6 +64,9 @@ The variance looks much better now. Notice that now Time (months) has the larges
 
 We are now ready to train the linear regression model.
 
+### 10. Sort models based on their AUC score from highest to lowest
+We sort models based on their AUC score using itemgetter.
+
 ## Conclusion
 The demand for blood fluctuates throughout the year. As one prominent example, blood donations slow down during busy holiday seasons. An accurate forecast for the future supply of blood allows for an appropriate action to be taken ahead of time and therefore saving more lives.
 
