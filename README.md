@@ -73,6 +73,8 @@ Target incidence is defined as the number of cases of each individual target val
  ``` 
  print(transfusion.target.value_counts(normalize=True).round(3))
  ``` 
+![alt text](https://github.com/adiimated/Blood-Donation-Prediction/blob/master/screenshots/Checking%20target%20incidence.png)
+
 ### 5. Splitting transfusion into train and test datasets
 We'll now use train_test_split() method to split transfusion DataFrame.
 
