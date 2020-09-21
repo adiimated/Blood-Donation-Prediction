@@ -26,6 +26,11 @@ import pandas as pd
 # Read in dataset
 transfusion = pd.read_csv(r'C:\Users\flash\Desktop\transfusion.data')
 
+# Print out the first rows of our dataset
+print("The first 5 rows of our dataset are : ")
+print(transfusion.head())
+print('\n')
+
 ``` 
 
 ### 2. Inspecting transfusion DataFrame
