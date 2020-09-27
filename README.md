@@ -3,6 +3,16 @@
 ## Table of content :
 * [Project Description](#project-description)
 * [Steps](#steps)
+    - [Loading the blood donations data](#subsection-a)
+    - [Inspecting transfusion DataFrame](#subsection-b)
+    - [Creating target column](#subsection-b)
+    - [Checking target incidence](#subsection-b)
+    - [Splitting transfusion into train and test datasets](#subsection-b)
+    - [Selecting model using TPOT](#subsection-b)
+    - [Checking the variance](#subsection-b)
+    - [Log normalization](#subsection-b)
+    - [Training the linear regression model](#subsection-b)
+    - [Sort models based on their AUC score from highest to lowest](#subsection-b)
 * [Conclusion](#conclusion)
 * [Credits](#credits)
 
