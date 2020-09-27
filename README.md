@@ -1,20 +1,20 @@
 # Blood-Donation-Prediction
 
 ## Table of content :
-* [Project Description](#project-description)
-* [Steps](#steps)
-    - [Loading the blood donations data](#1-loading-the-blood-donations-data)
-    - [Inspecting transfusion DataFrame](#2-inspecting-transfusion-dataFrame)
-    - [Creating target column](#creating-target-column)
-    - [Checking target incidence](#subsection-b)
-    - [Splitting transfusion into train and test datasets](#subsection-b)
-    - [Selecting model using TPOT](#subsection-b)
-    - [Checking the variance](#subsection-b)
-    - [Log normalization](#subsection-b)
-    - [Training the linear regression model](#subsection-b)
-    - [Sort models based on their AUC score from highest to lowest](#subsection-b)
-* [Conclusion](#conclusion)
-* [Credits](#credits)
+- [Project Description](#project-description)
+- [Steps](#steps)
+  * [1. Loading the blood donations data](#1-loading-the-blood-donations-data)
+  * [2. Inspecting transfusion DataFrame](#2-inspecting-transfusion-dataframe)
+  * [3. Creating target column](#3-creating-target-column)
+  * [4. Checking target incidence](#4-checking-target-incidence)
+  * [5. Splitting transfusion into train and test datasets](#5-splitting-transfusion-into-train-and-test-datasets)
+  * [6. Selecting model using TPOT](#6-selecting-model-using-tpot)
+  * [7. Checking the variance](#7-checking-the-variance)
+  * [8. Log normalization](#8-log-normalization)
+  * [9. Training the linear regression model](#9-training-the-linear-regression-model)
+  * [10. Sort models based on their AUC score from highest to lowest](#10-sort-models-based-on-their-auc-score-from-highest-to-lowest)
+- [Conclusion](#conclusion)
+- [Credits](#credits)
 
 
 ## Project Description 
