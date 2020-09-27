@@ -3,9 +3,9 @@
 ## Table of content :
 * [Project Description](#project-description)
 * [Steps](#steps)
-    - [Loading the blood donations data](#subsection-a)
-    - [Inspecting transfusion DataFrame](#subsection-b)
-    - [Creating target column](#subsection-b)
+    - [Loading the blood donations data](#1-loading-the-blood-donations-data)
+    - [Inspecting transfusion DataFrame](#2-inspecting-transfusion-dataFrame)
+    - [Creating target column](#creating-target-column)
     - [Checking target incidence](#subsection-b)
     - [Splitting transfusion into train and test datasets](#subsection-b)
     - [Selecting model using TPOT](#subsection-b)
